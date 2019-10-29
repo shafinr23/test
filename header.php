@@ -21,7 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
+<div id="page" class="site container ">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mamurjor' ); ?></a>
 
 	<header id="masthead" class="site-header">
@@ -34,7 +34,7 @@
 				<?php
 			else :
 				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title para "><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 			endif;
 			$mamurjor_description = get_bloginfo( 'description', 'display' );
